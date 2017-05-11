@@ -10,7 +10,6 @@ Pre-Requiste & Technology
 Execute Method and URL.
 1.Deploy the latest code from GITHUB and Build project using Maven
 2.Run the server from eclipse, no need to add any server as all configuration taken care inside maven.Refer the POM.XML to cross check on the dependency for the project to build.
-3.Attached two input files which contains input for 2 and 3 games
 4.http://localhost:8080/points  - GET- To pull all the data
 5.http://localhost:8080/points - POST - calculate the score and insert the data 
 6. For POST, take the input from the files and trigger the request in POSTMAN (Which can be used as plugin in chrome browsers)
@@ -26,7 +25,7 @@ Assumptions
 5.There are scopes for betterment of the existing code, but concentrated more on the core and technology as other parts little more time consuming.But happy to structure it more if this soultion is acceptable.
 
 
-Sampleout Response in JSON format for POST Request:
+Sampleout Response in JSON format for POST Request(TESTED FOR 3 GAMES):
 {
     "matchid": 1,
     "players": [
